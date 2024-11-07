@@ -1,0 +1,73 @@
+College Name,State,Rating,Location,Tuition Fees,Student Enrollment,Type,Courses Offered,Placement Percentage,Facilities,Accreditation,Establishment Year
+IIT Hyderabad,Telangana,4.9,Hyderabad,150000,5000,Public,Engineering,90%,Hostel,NA,2008
+IIIT Hyderabad,Telangana,4.8,Hyderabad,160000,4000,Private,Engineering,85%,Library,NA,1998
+BITS Pilani Hyderabad,Telangana,4.7,Hyderabad,170000,3500,Private,Engineering,88%,Gym,NA,2008
+NIT Warangal,Telangana,4.6,Warangal,140000,3000,Public,Engineering,82%,Hostel,NA,1959
+JNTU Hyderabad,Telangana,4.4,Hyderabad,120000,4000,Public,Engineering,80%,Library,NA,1990
+Chaitanya Bharathi Institute of Technology,Telangana,4.3,Hyderabad,110000,4500,Private,Engineering,75%,Hostel,NA,1985
+VNR Vignana Jyothi Institute of Engineering and Technology,Telangana,4.2,Hyderabad,130000,3500,Private,Engineering,78%,Gym,NA,1995
+Vasavi College of Engineering,Telangana,4.1,Hyderabad,125000,4200,Private,Engineering,76%,Library,NA,1981
+Anurag Group of Institutions,Telangana,4.0,Hyderabad,140000,4000,Private,Engineering,74%,Hostel,NA,1997
+Andhra University College of Engineering,Andhra Pradesh,4.7,Visakhapatnam,155000,4500,Public,Engineering,85%,Library,NA,1955
+SV University College of Engineering,Andhra Pradesh,4.6,Tirupati,160000,4200,Public,Engineering,82%,Gym,NA,1954
+JNTU Kakinada,Andhra Pradesh,4.5,Kakinada,150000,4300,Public,Engineering,80%,Hostel,NA,1982
+GITAM University,Andhra Pradesh,4.4,Visakhapatnam,165000,4000,Private,Engineering,78%,Library,NA,1980
+RVR & JC College of Engineering,Andhra Pradesh,4.3,Guntur,145000,3800,Private,Engineering,76%,Gym,NA,1985
+Gayatri Vidya Parishad College of Engineering,Andhra Pradesh,4.2,Visakhapatnam,140000,3500,Private,Engineering,74%,Hostel,NA,1996
+SRKR Engineering College,Andhra Pradesh,4.1,Bhimavaram,130000,4000,Private,Engineering,72%,Library,NA,1980
+Velagapudi Ramakrishna Siddhartha Engineering College,Andhra Pradesh,4.0, Vijayawada,135000,4200,Private,Engineering,70%,Hostel,NA,1992
+Sree Vidyanikethan Engineering College,Andhra Pradesh,3.9,Tirupati,120000,4300,Private,Engineering,68%,Library,NA,1996
+IIT Bombay,Maharashtra,4.9,Mumbai,200000,6000,Public,Engineering,92%,Hostel,NA,1958
+IIIT Bombay,Maharashtra,4.8,Mumbai,180000,5500,Private,Engineering,89%,Library,NA,1996
+BITS Pilani,Maharashtra,4.7,Pilani,190000,5000,Private,Engineering,87%,Gym,NA,1964
+NIT Trichy,Maharashtra,4.6,Trichy,170000,4500,Public,Engineering,83%,Hostel,NA,1964
+JNTU Mumbai,Maharashtra,4.5,Mumbai,160000,4700,Public,Engineering,81%,Library,NA,1990
+Chhattisgarh College of Engineering,Chhattisgarh,4.4,Bilaspur,140000,4200,Private,Engineering,79%,Gym,NA,1992
+Odisha Engineering College,Odisha,4.3,Bhubaneswar,145000,4300,Private,Engineering,77%,Hostel,NA,1995
+Utkal University,Odisha,4.2,Bhubaneswar,150000,4000,Public,Engineering,75%,Library,NA,1943
+Kalinga Institute of Industrial Technology,Odisha,4.1,Bhubaneswar,155000,3900,Private,Engineering,74%,Gym,NA,1992
+HITK,West Bengal,4.0,Kolkata,160000,4000,Private,Engineering,72%,Hostel,NA,1995
+Netaji Subhas Engineering College,West Bengal,4.1,Kolkata,165000,4200,Public,Engineering,74%,Library,NA,1998
+Jadavpur University,West Bengal,4.2,Kolkata,175000,4500,Public,Engineering,76%,Gym,NA,1955
+Maulana Abul Kalam Azad University of Technology,West Bengal,4.3,Kolkata,180000,4700,Public,Engineering,78%,Hostel,NA,2001
+University of Engineering & Management,West Bengal,4.4,Kolkata,190000,5000,Private,Engineering,80%,Library,NA,2010
+Maharashtra Institute of Technology,Maharashtra,4.5,Pune,175000,4600,Private,Engineering,82%,Gym,NA,1983
+Pune Institute of Computer Technology,Maharashtra,4.6,Pune,180000,4700,Private,Engineering,84%,Hostel,NA,1999
+KJ Somaiya College of Engineering,Maharashtra,4.7,Mumbai,185000,4900,Private,Engineering,86%,Library,NA,1983
+Thakur College of Engineering and Technology,Maharashtra,4.8,Mumbai,190000,5000,Private,Engineering,88%,Gym,NA,1998
+Sardar Patel College of Engineering,Maharashtra,4.9,Mumbai,200000,5200,Private,Engineering,90%,Hostel,NA,1962
+College Name,State,Rating,Location,Tuition Fees,Student Enrollment,Type,Courses Offered,Placement Percentage
+IIT Bangalore,Karnataka,4.9,Bangalore,200000,15000,Public,B.Tech,85
+RV College of Engineering,Karnataka,4.8,Bangalore,180000,12000,Private,B.Tech,80
+BMS College of Engineering,Karnataka,4.7,Bangalore,170000,11000,Private,B.Tech,78
+Manipal Institute of Technology,,4.6,Manipal,220000,13000,Private,B.Tech,82
+National Institute of Technology Karnataka,Karnataka,4.5,Surathkal,160000,10000,Public,B.Tech,84
+Anna University,Tamil Nadu,4.9,Chennai,150000,20000,Public,B.Tech,88Karnataka
+Vellore Institute of Technology,Tamil Nadu,4.8,Vellore,220000,18000,Private,B.Tech,85
+SRM Institute of Science and Technology,Tamil Nadu,4.7,Chennai,210000,16000,Private,B.Tech,83
+PSG College of Technology,Tamil Nadu,4.6,Coimbatore,190000,14000,Private,B.Tech,80
+Thiagarajar College of Engineering,Tamil Nadu,4.5,Madurai,170000,12000,Private,B.Tech,78
+IIT Madras,Tamil Nadu,4.9,Chennai,200000,12000,Public,B.Tech,90
+National Institute of Technology Trichy,Tamil Nadu,4.8,Tiruchirappalli,180000,13000,Public,B.Tech,88
+Coimbatore Institute of Technology,Tamil Nadu,4.7,Coimbatore,160000,11000,Private,B.Tech,81
+Sri Sivasubramaniya Nadar College of Engineering,Tamil Nadu,4.6,Chennai,150000,10000,Private,B.Tech,79
+Sathyabama Institute of Science and Technology,Tamil Nadu,4.5,Chennai,140000,9000,Private,B.Tech,77
+IIT Indore,Madhya Pradesh,4.8,Indore,200000,10000,Public,B.Tech,86
+Maulana Azad National Institute of Technology,Madhya Pradesh,4.7,Bhopal,170000,9000,Public,B.Tech,82
+Shri Govindram Seksaria Institute of Technology and Science,Madhya Pradesh,4.6,Indore,160000,8000,Private,B.Tech,80
+Oriental Institute of Science and Technology,Madhya Pradesh,4.5,Bhopal,150000,7000,Private,B.Tech,78
+Lakshmi Narain College of Technology,Madhya Pradesh,4.4,Bhopal,140000,6000,Private,B.Tech,75
+IIT Delhi,Delhi,4.9,Delhi,250000,11000,Public,B.Tech,94
+National Institute of Technology Delhi,Delhi,4.7,Delhi,220000,10000,Public,B.Tech,90
+Delhi Technological University,Delhi,4.6,Delhi,210000,9000,Public,B.Tech,88
+Indraprastha Institute of Information Technology,Delhi,4.5,Delhi,200000,8000,Public,B.Tech,85
+Jamia Millia Islamia,Delhi,4.4,Delhi,150000,7000,Public,B.Tech,82
+National Institute of Technology Warangal,Telangana,4.9,Warangal,180000,10000,Public,B.Tech,91
+IIT Roorkee,Uttarakhand,4.9,Roorkee,240000,9000,Public,B.Tech,92
+Graphic Era University,Uttarakhand,4.7,Dehradun,210000,8000,Private,B.Tech,88
+Uttarakhand Technical University,Uttarakhand,4.5,Dehradun,200000,7000,Public,B.Tech,86
+DIT University,Uttarakhand,4.4,Dehradun,190000,6000,Private,B.Tech,85
+Amity University,Uttar Pradesh,4.8,Noida,250000,15000,Private,B.Tech,89
+Motilal Nehru National Institute of Technology,Uttar Pradesh,4.7,Allahabad,240000,13000,Public,B.Tech,87
+Indian Institute of Information Technology,Uttar Pradesh,4.6,Allahabad,230000,12000,Public,B.Tech,85
+Harcourt Butler Technical University,Uttar Pradesh,4.5,Kanpur,220000,11000,Public,B.Tech,83

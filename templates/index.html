@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>College Finder Using Big Data</h1>
+    <form method="post">
+        <label for="state">Select State:</label>
+        <select id="state" name="state">
+            <option value="Telangana">Telangana</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Tamil Nadu">ATamil Nadu</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="Delhi">Delhi</option>
+            <!-- Add other states here -->
+        </select>
+        
+        <label for="parameter">Select Parameter:</label>
+        <select id="parameter" name="parameter">
+            <option value="Tuition Fees">Tuition Fees</option>
+            <option value="Rating">Rating</option>
+            <option value="Student Enrollment">Student Enrollment</option>
+            
+            <option value="Establishment Year">Establishment Year</option>
+            <!-- Add other parameters here -->
+        </select>
+
+        <label for="graph_type">Select Graph Type:</label>
+        <select id="graph_type" name="graph_type">
+            <option value="line">Line Graph</option>
+            <!-- Option for other graph types if needed -->
+        </select>
+
+        <button type="submit">Find Colleges</button>
+    </form>
+
+    {% if top_colleges is not none %}
+        <h2>Top Colleges in {{ request.form.get('state') }}:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>College Name</th>
+                    <th>Rating</th>
+                    <th>Location</th>
+                    <th>Tuition Fees</th>
+                    <th>Student Enrollment</th>
+                    <th>Type</th>
+                    <th>Courses Offered</th>
+                    <th>Student-Faculty Ratio</th>
+                    <th>Facilities</th>
+                    <th>Accreditation</th>
+                    <th>Establishment Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in top_colleges.iterrows() %}
+                    <tr>
+                        <td>{{ row['College Name'] }}</td>
+                        <td>{{ row['Rating'] }}</td>
+                        <td>{{ row['Location'] }}</td>
+                        <td>{{ row['Tuition Fees'] }}</td>
+                        <td>{{ row['Student Enrollment'] }}</td>
+                        <td>{{ row['Type'] }}</td>
+                        <td>{{ row['Courses Offered'] }}</td>
+                        <td>{{ row['Student-Faculty Ratio'] }}</td>
+                        <td>{{ row['Facilities'] }}</td>
+                        <td>{{ row['Accreditation'] }}</td>
+                        <td>{{ row['Establishment Year'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% if parameter_img %}
+        <h3>{{ request.form.get('parameter') }} Distribution</h3>
+        <img src="data:image/png;base64,{{ parameter_img }}" alt="{{ request.form.get('parameter') }} Distribution">
+        {% endif %}
+    {% endif %}
+</body>
+</html>
